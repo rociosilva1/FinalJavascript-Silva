@@ -1,0 +1,69 @@
+[
+    {
+        "id": 1,
+        "nombre": "Tabla de corte KAT",
+        "imagen": "./assets/images/Tabla de corte.jpg",
+        "precio": 3000.00,
+        "tieneDescuento": true,
+        "precioDescuento": 2550.00
+    },
+    {
+        "id": 2,
+        "nombre": "Bowl Granola",
+        "imagen": "./assets/images/bowl blanco.jpg",
+        "precio": 2500.00,
+        "tieneDescuento": true,
+        "precioDescuento": 2125.00
+    },
+    {
+        "id": 3,
+        "nombre": "Bowl Black Soul",
+        "imagen": "./assets/images/bowl ceramico.jpg",
+        "precio": 2700.00,
+        "tieneDescuento": false
+    },
+    {
+        "id": 4,
+        "nombre": "Cossy Spoon",
+        "imagen": "./assets/images/Cubierto.jpg",
+        "precio": 1500.00,
+        "tieneDescuento": true,
+        "precioDescuento": 1275.00
+    },
+    {
+        "id": 5,
+        "nombre": "Deco Flow",
+        "imagen": "./assets/images/deco flor.jpg",
+        "precio": 2000.00,
+        "tieneDescuento": false
+    },
+    {
+        "id": 6,
+        "nombre": "Juego de Tazas Cow",
+        "imagen": "./assets/images/juego de tazas cow.jpg",
+        "precio": 3500.00,
+        "tieneDescuento": false
+    },
+    {
+        "id": 7,
+        "nombre": "Kit de Sushi",
+        "imagen": "./assets/images/kit sushi.jpg",
+        "precio": 2800.00,
+        "tieneDescuento": true,
+        "precioDescuento": 2380.00
+    },
+    {
+        "id": 8,
+        "nombre": "Set de platos W&B",
+        "imagen": "./assets/images/set de platos.jpg",
+        "precio": 4000.00,
+        "tieneDescuento": false
+    },
+    {
+        "id": 9,
+        "nombre": "Altavoz",
+        "imagen": "./assets/images/altavoz.jpg",
+        "precio": 4000.00,
+        "tieneDescuento": false
+    }
+]
