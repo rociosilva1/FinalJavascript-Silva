@@ -38,6 +38,11 @@ document.addEventListener("DOMContentLoaded", function () {
         cartSidebar.classList.remove("open");
     }
 
+    // Función para limpiar las cantidades del producto
+    function cleanItemQuantity(element) {
+        element.textContent = 0
+    }
+
     // Función para actualizar el precio total del carrito
     function updateCartTotal() {
         let total = 0;
@@ -216,11 +221,13 @@ document.addEventListener("DOMContentLoaded", function () {
                 buyButton.addEventListener("click", () => {
                     const currentQuantity = parseInt(productDiv.querySelector(".quantity").textContent);
                     const clickedProduct = data[index]; // Usar la variable index en lugar de product.id
-
+                    const quantityElement = productDiv.querySelector(".quantity");
+                    
                     // Asegurarse de que al menos haya un producto en el carrito
                     if (currentQuantity >= 1) {
                         addToCart(clickedProduct, currentQuantity); // Usar la variable clickedProduct
                         closeCartSidebar(); // Cerrar el sidebar después de agregar productos
+                        cleanItemQuantity(quantityElement); // Limpio las cantidades del producto comprado
                     }
                 });
 
