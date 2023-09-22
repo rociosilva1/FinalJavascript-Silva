@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Función para decrementar la cantidad
     function decrementQuantity(element) {
         const currentQuantity = parseInt(element.textContent);
-        if (currentQuantity > 1) {
+        if (currentQuantity >= 1) {
             element.textContent = currentQuantity - 1;
         }
     }
