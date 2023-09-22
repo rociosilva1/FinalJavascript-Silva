@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded", function () {
             <span>${product.nombre} (x${quantity})</span>
             <span>$${precio.toFixed(2)}</span>
             <button class="remove-button" data-id="${product.id}">
-                <img src="./assets/images/eliminar (1).png" alt="Eliminar">
+                <img src="assets/images/eliminar (1).png" alt="Eliminar">
             </button>
         `;
         cartItems.appendChild(cartItem);
@@ -180,7 +180,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     // Obtener los datos del archivo JSON utilizando fetch
-    fetch("./Productos.json")
+    fetch("Productos.json")
         .then(response => response.json())
         .then(data => {
             // Recorrer los datos y generar la estructura HTML
@@ -189,7 +189,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 productDiv.classList.add("product");
                 productDiv.innerHTML = `
                     <button class="remove-button" data-id="${product.id}">
-                        <img src="./assets/images/eliminar (1).png" alt="Eliminar">
+                        <img src="assets/images/eliminar (1).png" alt="Eliminar">
                     </button>
                     <img src="${product.imagen}" alt="${product.nombre}">
                     <h2>${product.nombre}</h2>
