@@ -180,7 +180,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     // Obtener los datos del archivo JSON utilizando fetch
-    fetch("productos.json")
+    fetch("./Productos.json")
         .then(response => response.json())
         .then(data => {
             // Recorrer los datos y generar la estructura HTML
